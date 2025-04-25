@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./index.module.scss";
 import Link from "next/link";
+import IconGenres from "../../../public/icons/genres.svg";
 
 export const Header = () => {
   return (
@@ -12,6 +13,7 @@ export const Header = () => {
       </Link>
       <ul className={styles["header__nav"]}>
         <li className={styles["header__nav-item"]}>
+          <IconGenres />
           <Link href="/genres" className={`${styles["nav-item__link"]} ${styles["link"]}`}>
             <svg
               className={styles["nav-item__icon"]}
