@@ -1,0 +1,22 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+    transition: all .2s ease;
+
+    path {
+        fill: #ffffff;
+    }
+
+    @media screen and (min-width: 768px) {
+        &:hover {
+            color: #9747FF;
+        }
+
+        &:focus,
+        &:focus-visible {
+            border: 1px solid #9747FF;
+            border-radius: 5px;
+        }
+    }
+}
